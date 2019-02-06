@@ -28,7 +28,7 @@ function iLoveTheBeatles(n){ //accepts number as a parameter
   do{
     loveThem.push(`I love the Beatles!`)
     incrementN();//The loop should then increment the number passed in as a parameter.
-  } while(parseInt(n) < parseInt((15-n)) ) // The first check is when n = 2, As long as the parameter number is less than 15, then
+  } while(n < 15 ) // The first check is when n = 2, As long as the parameter number is less than 15, then
 //The condition of the loop should check to see that the parameter number is less than 15.
 // It should contain a number of strings that represents the difference between the input number and 15.
 return loveThem;//xxxxxxxx

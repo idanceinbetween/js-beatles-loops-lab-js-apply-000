@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments){
   return theyPlay;
 }
 
-function johnLennonFacts(facts){
+function johnLennonFacts(){
   var johnLennonShouts = new Array();
   while (johnLennonFacts.length > 0 ){ //as long as the array length is bigger than 0 johnLennonFacts.length
     johnLennonShouts.push(`facts!!!`)

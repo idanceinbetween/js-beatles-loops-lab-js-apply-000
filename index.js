@@ -17,6 +17,8 @@ function johnLennonFacts(facts){ //This function will accept one argument, an ar
   return johnLennonShouts;
 }
 
-function iLoveTheBeatles(){
+function iLoveTheBeatles(n){ //accepts number as a parameter
+  var loveThem = new Array()
 
+  
 }

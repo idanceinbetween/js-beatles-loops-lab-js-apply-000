@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians, instruments){
 
 function johnLennonFacts(){
   var johnLennonShouts = new Array()
-  while (){ //while the array index place is not empty,
+  while (johnLennonShouts[n] < n ){ //while the array index place is not empty,
     johnLennonShouts.push(`${johnLennonFacts[0]}!!!`)
   }
   return johnLennonShouts;

@@ -19,10 +19,10 @@ function johnLennonFacts(facts){ //This function will accept one argument, an ar
 
 function iLoveTheBeatles(n){ //accepts number as a parameter
   var loveThem = new Array() // The function should create a variable that stores an empty array.
-  var n = 0
 
+  var n = 0
   function incrementN(){
-    n = n+1
+    n = n + 1
   }
 
   do{

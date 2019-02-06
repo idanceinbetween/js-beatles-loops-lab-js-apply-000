@@ -24,5 +24,5 @@ function iLoveTheBeatles(n){ //accepts number as a parameter
   } while {
     
   };
-  
+
 }

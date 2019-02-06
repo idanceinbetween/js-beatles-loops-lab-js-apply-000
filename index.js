@@ -10,8 +10,8 @@ function theBeatlesPlay(musicians, instruments){
 
 function johnLennonFacts(){
   var johnLennonShouts = new Array()
-  while (){
-
+  while (){ //while the array index place is not empty,
+    johnLennonShouts.push(``)
   }
   return johnLennonShouts;
 }

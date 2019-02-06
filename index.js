@@ -18,7 +18,11 @@ function johnLennonFacts(facts){ //This function will accept one argument, an ar
 }
 
 function iLoveTheBeatles(n){ //accepts number as a parameter
-  var loveThem = new Array()
-
+  var loveThem = new Array() // The function should create a variable that stores an empty array.
+  do{
+    loveThem.push(`I love the Beatles!`)
+  } while {
+    
+  };
   
 }

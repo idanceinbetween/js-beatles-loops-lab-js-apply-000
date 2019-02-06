@@ -8,10 +8,11 @@ function theBeatlesPlay(musicians, instruments){
   return theyPlay;
 }
 
-function johnLennonFacts(facts){
+function johnLennonFacts(facts){ //This function will accept one argument, an array of facts about John Lennon
   var johnLennonShouts = new Array();
   while (facts.length > 0 ){ //as long as the array length is bigger than 0 johnLennonFacts.length
     johnLennonShouts.push(`${facts}!!!`)
+    facts.slice();
   }
   return johnLennonShouts;
 }

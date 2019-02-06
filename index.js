@@ -20,7 +20,7 @@ function johnLennonFacts(facts){ //This function will accept one argument, an ar
 function iLoveTheBeatles(n){ //accepts number as a parameter
   var loveThem = new Array() // The function should create a variable that stores an empty array.
 
-  var n = 0
+  var n = 1
   function incrementN(){
     n = n + 1
   }
@@ -29,6 +29,6 @@ function iLoveTheBeatles(n){ //accepts number as a parameter
     loveThem.push(`I love the Beatles!`)
     incrementN();//The loop should then increment the number passed in as a parameter.
     return loveThem;
-  } while(n<(15-n))) //The condition of the loop should check to see that the parameter number is less than 15.
+  } while(n < (15-n) )) //The condition of the loop should check to see that the parameter number is less than 15.
 // It should contain a number of strings that represents the difference between the input number and 15.
 }

@@ -12,7 +12,7 @@ function johnLennonFacts(facts){ //This function will accept one argument, an ar
   var johnLennonShouts = new Array();
   while (facts.length > 0 ){ //as long as the array length is bigger than 0 johnLennonFacts.length
     johnLennonShouts.push(`${facts}!!!`)
-    facts.slice();
+    facts.shift();
   }
   return johnLennonShouts;
 }
